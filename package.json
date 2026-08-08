@@ -1,0 +1,16 @@
+{
+  "name": "nizam-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static portfolio served with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3"
+  }
+}
